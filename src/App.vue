@@ -13,7 +13,7 @@
 <script lang="ts" setup>
   import {ref} from 'vue'
   let val =ref('')
-  let todos = ref(['吃饭1','睡觉','学习'])
+  let todos = ref(['吃饭','睡觉','学习'])
   function addTodo () {
     todos.value.push(val.value)
     val.value = ''
